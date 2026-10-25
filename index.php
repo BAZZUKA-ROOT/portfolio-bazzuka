@@ -82,11 +82,11 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 48px;display:f
 .aurora::after{content:'';position:absolute;width:600px;height:600px;bottom:-100px;right:-100px;background:radial-gradient(ellipse,rgba(236,72,153,.1) 0%,transparent 70%);animation:auroraMove2 12s ease-in-out infinite alternate;border-radius:50%}
 @keyframes auroraMove1{0%{transform:translate(0,0) scale(1)}100%{transform:translate(150px,80px) scale(1.3)}}
 @keyframes auroraMove2{0%{transform:translate(0,0) scale(1)}100%{transform:translate(-100px,-60px) scale(1.2)}}
-.hero-content{position:relative;z-index:1;text-align:center;padding:0 20px;max-width:900px}
-.hero-tag{display:inline-flex;align-items:center;gap:10px;background:rgba(124,58,237,.12);border:1px solid rgba(124,58,237,.3);border-radius:50px;padding:8px 22px;font-size:.78rem;color:var(--purple2);margin-bottom:32px;font-family:'JetBrains Mono',monospace;backdrop-filter:blur(8px)}
+.hero-content{position:relative;z-index:1;text-align:center;padding:0 20px;max-width:900px;display:flex;flex-direction:column;align-items:center}
+.hero-tag{display:inline-flex;align-items:center;gap:10px;background:rgba(124,58,237,.12);border:1px solid rgba(124,58,237,.3);border-radius:50px;padding:8px 22px;font-size:.78rem;color:var(--purple2);margin:0 auto 32px;font-family:'JetBrains Mono',monospace;backdrop-filter:blur(8px);width:fit-content}
 .hero-tag .dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green);animation:ping 2s cubic-bezier(0,0,.2,1) infinite}
 @keyframes ping{0%{box-shadow:0 0 0 0 rgba(16,185,129,.8)}100%{box-shadow:0 0 0 10px rgba(16,185,129,0)}}
-.hero-name{font-size:clamp(4.5rem,11vw,9rem);font-weight:700;line-height:.95;letter-spacing:-.04em;margin-bottom:16px;position:relative;display:inline-block}
+.hero-name{font-size:clamp(4.5rem,11vw,9rem);font-weight:700;line-height:.95;letter-spacing:-.04em;margin-bottom:16px;position:relative;display:block;text-align:center;width:100%}
 .hero-name-inner{background:linear-gradient(135deg,#fff 20%,var(--purple2) 55%,var(--pink) 85%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .glitch{position:relative;display:inline-block}
 .glitch::before,.glitch::after{content:attr(data-text);position:absolute;top:0;left:0;background:linear-gradient(135deg,#fff 20%,var(--purple2) 55%,var(--pink) 85%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
