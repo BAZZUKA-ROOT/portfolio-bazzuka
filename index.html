@@ -4,8 +4,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bazzuka · Full-stack Developer</title>
-<meta name="description" content="Bazzuka — Desenvolvedor Full-stack especialista em PHP, Python, Node.js, IoT e automação. Construo ferramentas que resolvem problemas reais.">
+<title>Bazzuka Â· Full-stack Developer</title>
+<meta name="description" content="Bazzuka â€” Desenvolvedor Full-stack especialista em PHP, Python, Node.js, IoT e automaÃ§Ã£o. Construo ferramentas que resolvem problemas reais.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -33,14 +33,14 @@
 html{scroll-behavior:smooth}
 body{font-family:'Space Grotesk',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;cursor:none}
 
-/* ── CUSTOM CURSOR ── */
+/* â”€â”€ CUSTOM CURSOR â”€â”€ */
 #cursor{position:fixed;width:12px;height:12px;background:var(--purple2);border-radius:50%;pointer-events:none;z-index:9999;mix-blend-mode:screen;transition:transform .15s,opacity .15s;transform:translate(-50%,-50%)}
 #cursor-ring{position:fixed;width:40px;height:40px;border:1.5px solid rgba(168,85,247,.6);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:width .3s,height .3s,border-color .3s}
 body:not(.cursor-active) #cursor,body:not(.cursor-active) #cursor-ring{display:none}
 .cursor-hover #cursor{transform:translate(-50%,-50%) scale(2.5);opacity:.6}
 .cursor-hover #cursor-ring{width:60px;height:60px;border-color:rgba(168,85,247,.3)}
 
-/* ── LOADING SCREEN ── */
+/* â”€â”€ LOADING SCREEN â”€â”€ */
 #loader{position:fixed;inset:0;z-index:9000;background:var(--bg);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:24px;transition:opacity .6s,visibility .6s}
 #loader.done{opacity:0;visibility:hidden}
 .loader-logo{font-family:'JetBrains Mono',monospace;font-size:2.5rem;font-weight:700;color:var(--purple2);letter-spacing:.05em;animation:loaderPulse 1s ease-in-out infinite}
@@ -49,12 +49,12 @@ body:not(.cursor-active) #cursor,body:not(.cursor-active) #cursor-ring{display:n
 @keyframes loaderPulse{0%,100%{opacity:.6}50%{opacity:1}}
 @keyframes loaderFill{0%{width:0}100%{width:100%}}
 
-/* ── SCROLLBAR ── */
+/* â”€â”€ SCROLLBAR â”€â”€ */
 ::-webkit-scrollbar{width:4px}
 ::-webkit-scrollbar-track{background:var(--bg)}
 ::-webkit-scrollbar-thumb{background:linear-gradient(var(--purple),var(--purple2));border-radius:2px}
 
-/* ── NAV ── */
+/* â”€â”€ NAV â”€â”€ */
 nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 48px;display:flex;align-items:center;justify-content:space-between;backdrop-filter:blur(24px) saturate(180%);background:rgba(5,5,15,.6);border-bottom:1px solid var(--border);transition:.3s}
 .nav-logo{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:1.1rem;color:var(--purple2);letter-spacing:.05em;text-decoration:none}
 .nav-logo span{color:var(--text)}
@@ -74,7 +74,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 48px;display:f
 .hamburger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
 .hamburger.open span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
 
-/* ── HERO ── */
+/* â”€â”€ HERO â”€â”€ */
 #hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden}
 #three-canvas{position:absolute;inset:0;z-index:0}
 .aurora{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
@@ -111,7 +111,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 48px;display:f
 .scroll-line{width:1px;height:40px;background:linear-gradient(var(--purple2),transparent);animation:scrollLine 2.5s ease-in-out infinite}
 @keyframes scrollLine{0%{height:0;opacity:0}50%{height:40px;opacity:1}100%{height:40px;opacity:0}}
 
-/* ── ABOUT ── */
+/* â”€â”€ ABOUT â”€â”€ */
 #about{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;max-width:1200px;margin:0 auto;padding:140px 48px}
 .about-text .section-desc{max-width:100%}
 .about-stats{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:40px}
@@ -136,7 +136,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 48px;display:f
 .orbit-pip.c{background:var(--cyan);box-shadow:0 0 12px var(--cyan)}
 @keyframes hexOrbit{from{transform:translate(-50%,-50%) rotate(0deg)}to{transform:translate(-50%,-50%) rotate(360deg)}}
 
-/* ── SECTIONS COMMON ── */
+/* â”€â”€ SECTIONS COMMON â”€â”€ */
 .section-wrap{max-width:1200px;margin:0 auto;padding:120px 48px}
 .section-label{font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--purple2);letter-spacing:.25em;text-transform:uppercase;margin-bottom:14px;display:flex;align-items:center;gap:10px}
 .section-label::before{content:'';width:24px;height:1px;background:var(--purple2)}
@@ -144,7 +144,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 48px;display:f
 .section-title span{background:linear-gradient(135deg,var(--purple2),var(--pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .section-desc{color:var(--muted);font-size:1rem;max-width:540px;line-height:1.8}
 
-/* ── SKILLS ── */
+/* â”€â”€ SKILLS â”€â”€ */
 .skills-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px;margin-top:56px}
 .skill-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:26px 18px;text-align:center;transition:.4s;cursor:default;position:relative;overflow:hidden;transform-style:preserve-3d}
 .skill-card::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(124,58,237,.08),rgba(168,85,247,.04));opacity:0;transition:.4s;border-radius:16px}
@@ -157,7 +157,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 48px;display:f
 .skill-fill{height:100%;background:linear-gradient(90deg,var(--purple),var(--purple2));border-radius:2px;transform:scaleX(0);transform-origin:left;transition:transform 1.2s cubic-bezier(.16,1,.3,1)}
 .skill-card.in-view .skill-fill{transform:scaleX(1)}
 
-/* ── PROJECTS ── */
+/* â”€â”€ PROJECTS â”€â”€ */
 .filter-bar{display:flex;gap:8px;flex-wrap:wrap;margin:44px 0 52px}
 .filter-btn{background:rgba(255,255,255,.03);border:1px solid var(--border);color:var(--muted);padding:9px 22px;border-radius:50px;font-size:.82rem;cursor:pointer;transition:.3s;font-family:'Space Grotesk',sans-serif;font-weight:500;backdrop-filter:blur(4px)}
 .filter-btn:hover{border-color:rgba(168,85,247,.4);color:var(--text);background:rgba(124,58,237,.08)}
@@ -187,7 +187,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 48px;display:f
 .proj-link-demo:hover{box-shadow:0 8px 24px rgba(124,58,237,.55);transform:translateY(-1px)}
 .proj-card.hidden{display:none}
 
-/* ── CONTACT ── */
+/* â”€â”€ CONTACT â”€â”€ */
 .contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin-top:56px}
 .contact-card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:36px 20px;text-decoration:none;color:var(--text);transition:.4s;display:flex;flex-direction:column;align-items:center;gap:14px;position:relative;overflow:hidden}
 .contact-card::before{content:'';position:absolute;bottom:-60px;left:50%;transform:translateX(-50%);width:120px;height:120px;border-radius:50%;filter:blur(30px);opacity:0;transition:.5s}
@@ -210,17 +210,17 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 48px;display:f
 .contact-name{font-weight:700;font-size:1rem}
 .contact-val{color:var(--muted);font-size:.82rem;font-family:'JetBrains Mono',monospace}
 
-/* ── FOOTER ── */
+/* â”€â”€ FOOTER â”€â”€ */
 footer{border-top:1px solid var(--border);padding:48px;text-align:center;color:var(--muted);font-size:.85rem}
 footer strong{color:var(--purple2)}
 footer a{color:var(--purple2);text-decoration:none;transition:.2s}
 footer a:hover{color:var(--pink)}
 
-/* ── DIVIDERS ── */
+/* â”€â”€ DIVIDERS â”€â”€ */
 .section-divider{max-width:1200px;margin:0 auto;padding:0 48px}
 .section-divider hr{border:none;height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent)}
 
-/* ── REVEAL ── */
+/* â”€â”€ REVEAL â”€â”€ */
 .reveal{opacity:0;transform:translateY(35px);transition:.9s cubic-bezier(.16,1,.3,1)}
 .reveal.visible{opacity:1;transform:none}
 .reveal-left{opacity:0;transform:translateX(-40px);transition:.9s cubic-bezier(.16,1,.3,1)}
@@ -228,11 +228,11 @@ footer a:hover{color:var(--pink)}
 .reveal-right{opacity:0;transform:translateX(40px);transition:.9s cubic-bezier(.16,1,.3,1)}
 .reveal-right.visible{opacity:1;transform:none}
 
-/* ── RIPPLE ── */
+/* â”€â”€ RIPPLE â”€â”€ */
 .ripple{position:absolute;border-radius:50%;background:rgba(168,85,247,.3);pointer-events:none;animation:rippleAnim .6s ease-out forwards}
 @keyframes rippleAnim{0%{transform:scale(0);opacity:1}100%{transform:scale(4);opacity:0}}
 
-/* ── MOBILE ── */
+/* â”€â”€ MOBILE â”€â”€ */
 @media(max-width:1024px){
   #about{grid-template-columns:1fr;gap:56px;padding:100px 32px}
   .about-visual{display:none}
@@ -281,7 +281,7 @@ footer a:hover{color:var(--pink)}
     <li><a href="#projects">Projetos</a></li>
     <li><a href="#contact">Contato</a></li>
   </ul>
-  <a href="https://wa.me/5544998458841" target="_blank" class="nav-cta"><span>💬 WhatsApp</span></a>
+  <a href="https://wa.me/5544998458841" target="_blank" class="nav-cta"><span>ðŸ’¬ WhatsApp</span></a>
   <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menu">
     <span></span><span></span><span></span>
   </button>
@@ -292,15 +292,15 @@ footer a:hover{color:var(--pink)}
   <div class="aurora"></div>
   <canvas id="three-canvas"></canvas>
   <div class="hero-content">
-    <div class="hero-tag"><div class="dot"></div>Disponível para projetos</div>
+    <div class="hero-tag"><div class="dot"></div>DisponÃ­vel para projetos</div>
     <h1 class="hero-name">
       <span class="hero-name-inner glitch" data-text="Bazzuka">Bazzuka</span>
     </h1>
     <p class="hero-subtitle" id="typewriter"><span class="cursor-blink"></span></p>
-    <p class="hero-desc">Construo ferramentas que resolvem problemas reais — do ESP32 ao SaaS, do PDV ao bot com IA. Código que funciona na prática.</p>
+    <p class="hero-desc">Construo ferramentas que resolvem problemas reais â€” do ESP32 ao SaaS, do PDV ao bot com IA. CÃ³digo que funciona na prÃ¡tica.</p>
     <div class="hero-btns">
       <a href="#projects" class="btn-primary">
-        <span>🚀 Ver Projetos</span>
+        <span>ðŸš€ Ver Projetos</span>
       </a>
       <a href="https://github.com/BAZZUKA-ROOT" target="_blank" class="btn-outline">
         <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -319,10 +319,10 @@ footer a:hover{color:var(--pink)}
   <div class="about-text">
     <p class="section-label reveal-left">// sobre mim</p>
     <h2 class="section-title reveal-left">Desenvolvimento que <span>resolve de verdade</span></h2>
-    <p class="section-desc reveal-left" style="margin-bottom:16px">Sou desenvolvedor full-stack focado em soluções práticas — sistemas para pequenas empresas, automações, IoT e aplicações web que realmente funcionam.</p>
+    <p class="section-desc reveal-left" style="margin-bottom:16px">Sou desenvolvedor full-stack focado em soluÃ§Ãµes prÃ¡ticas â€” sistemas para pequenas empresas, automaÃ§Ãµes, IoT e aplicaÃ§Ãµes web que realmente funcionam.</p>
     <p class="section-desc reveal-left">Trabalho com PHP, Python, Node.js, JavaScript, Electron, React e C++ para ESP32. Cada projeto nasce de um problema real.</p>
     <div class="about-stats">
-      <div class="stat-card reveal"><div class="stat-num" data-count="15">0</div><div class="stat-label">Projetos no GitHub</div></div>
+      <div class="stat-card reveal"><div class="stat-num" data-count="17">0</div><div class="stat-label">Projetos no GitHub</div></div>
       <div class="stat-card reveal"><div class="stat-num" data-count="5">0</div><div class="stat-label">Linguagens ativas</div></div>
       <div class="stat-card reveal"><div class="stat-num">IoT</div><div class="stat-label">ESP32 & Arduino</div></div>
       <div class="stat-card reveal"><div class="stat-num">SaaS</div><div class="stat-label">Web & Desktop</div></div>
@@ -333,7 +333,7 @@ footer a:hover{color:var(--pink)}
       <div class="hex-ring"><div class="orbit-pip p"></div></div>
       <div class="hex-ring"><div class="orbit-pip pk"></div></div>
       <div class="hex-ring"><div class="orbit-pip c"></div></div>
-      <div class="hex-avatar"><div class="hex-avatar-emoji">🧑‍💻</div></div>
+      <div class="hex-avatar"><div class="hex-avatar-emoji">ðŸ§‘â€ðŸ’»</div></div>
     </div>
   </div>
 </div>
@@ -345,18 +345,18 @@ footer a:hover{color:var(--pink)}
   <p class="section-label reveal">// habilidades</p>
   <h2 class="section-title reveal">Minha <span>Stack</span></h2>
   <div class="skills-grid">
-    <div class="skill-card reveal"><span class="skill-icon">🐘</span><div class="skill-name">PHP</div><div class="skill-bar"><div class="skill-fill" style="--w:.92"></div></div></div>
-    <div class="skill-card reveal"><span class="skill-icon">🐍</span><div class="skill-name">Python</div><div class="skill-bar"><div class="skill-fill" style="--w:.88"></div></div></div>
-    <div class="skill-card reveal"><span class="skill-icon">🟨</span><div class="skill-name">JavaScript</div><div class="skill-bar"><div class="skill-fill" style="--w:.90"></div></div></div>
-    <div class="skill-card reveal"><span class="skill-icon">🟢</span><div class="skill-name">Node.js</div><div class="skill-bar"><div class="skill-fill" style="--w:.87"></div></div></div>
-    <div class="skill-card reveal"><span class="skill-icon">⚛️</span><div class="skill-name">React</div><div class="skill-bar"><div class="skill-fill" style="--w:.70"></div></div></div>
-    <div class="skill-card reveal"><span class="skill-icon">▲</span><div class="skill-name">Next.js</div><div class="skill-bar"><div class="skill-fill" style="--w:.65"></div></div></div>
-    <div class="skill-card reveal"><span class="skill-icon">🔵</span><div class="skill-name">Electron</div><div class="skill-bar"><div class="skill-fill" style="--w:.85"></div></div></div>
-    <div class="skill-card reveal"><span class="skill-icon">🔩</span><div class="skill-name">C++ / ESP32</div><div class="skill-bar"><div class="skill-fill" style="--w:.72"></div></div></div>
-    <div class="skill-card reveal"><span class="skill-icon">🐬</span><div class="skill-name">MySQL</div><div class="skill-bar"><div class="skill-fill" style="--w:.88"></div></div></div>
-    <div class="skill-card reveal"><span class="skill-icon">🗃️</span><div class="skill-name">SQLite</div><div class="skill-bar"><div class="skill-fill" style="--w:.90"></div></div></div>
-    <div class="skill-card reveal"><span class="skill-icon">🤖</span><div class="skill-name">Bots & IA</div><div class="skill-bar"><div class="skill-fill" style="--w:.85"></div></div></div>
-    <div class="skill-card reveal"><span class="skill-icon">⚙️</span><div class="skill-name">Automação</div><div class="skill-bar"><div class="skill-fill" style="--w:.93"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">ðŸ˜</span><div class="skill-name">PHP</div><div class="skill-bar"><div class="skill-fill" style="--w:.92"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">ðŸ</span><div class="skill-name">Python</div><div class="skill-bar"><div class="skill-fill" style="--w:.88"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">ðŸŸ¨</span><div class="skill-name">JavaScript</div><div class="skill-bar"><div class="skill-fill" style="--w:.90"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">ðŸŸ¢</span><div class="skill-name">Node.js</div><div class="skill-bar"><div class="skill-fill" style="--w:.87"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">âš›ï¸</span><div class="skill-name">React</div><div class="skill-bar"><div class="skill-fill" style="--w:.70"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">â–²</span><div class="skill-name">Next.js</div><div class="skill-bar"><div class="skill-fill" style="--w:.65"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">ðŸ”µ</span><div class="skill-name">Electron</div><div class="skill-bar"><div class="skill-fill" style="--w:.85"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">ðŸ”©</span><div class="skill-name">C++ / ESP32</div><div class="skill-bar"><div class="skill-fill" style="--w:.72"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">ðŸ¬</span><div class="skill-name">MySQL</div><div class="skill-bar"><div class="skill-fill" style="--w:.88"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">ðŸ—ƒï¸</span><div class="skill-name">SQLite</div><div class="skill-bar"><div class="skill-fill" style="--w:.90"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">ðŸ¤–</span><div class="skill-name">Bots & IA</div><div class="skill-bar"><div class="skill-fill" style="--w:.85"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">âš™ï¸</span><div class="skill-name">AutomaÃ§Ã£o</div><div class="skill-bar"><div class="skill-fill" style="--w:.93"></div></div></div>
   </div>
 </div>
 
@@ -365,8 +365,8 @@ footer a:hover{color:var(--pink)}
 <!-- PROJECTS -->
 <div class="section-wrap" id="projects">
   <p class="section-label reveal">// projetos</p>
-  <h2 class="section-title reveal">O que <span>eu construí</span></h2>
-  <p class="section-desc reveal">Todos os projetos estão no GitHub. Alguns têm demo ao vivo.</p>
+  <h2 class="section-title reveal">O que <span>eu construÃ­</span></h2>
+  <p class="section-desc reveal">Todos os projetos estÃ£o no GitHub. Alguns tÃªm demo ao vivo.</p>
   <div class="filter-bar reveal">
     <button class="filter-btn active" data-filter="all">Todos</button>
     <button class="filter-btn" data-filter="web">Web & SaaS</button>
@@ -379,12 +379,12 @@ footer a:hover{color:var(--pink)}
 
     <div class="proj-card reveal" data-cat="web">
       <div class="proj-card-header">
-        <span class="proj-icon">⚡</span>
+        <span class="proj-icon">âš¡</span>
         <div class="proj-badges"><span class="badge badge-new">flagship</span></div>
       </div>
       <div class="proj-card-body">
         <h3 class="proj-title">Veltora</h3>
-        <p class="proj-desc">Gerador de sites profissionais + CRM para prospecção via WhatsApp. Bot com IA Groq e acesso por hash SHA-256.</p>
+        <p class="proj-desc">Gerador de sites profissionais + CRM para prospecÃ§Ã£o via WhatsApp. Bot com IA Groq e acesso por hash SHA-256.</p>
         <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">Node.js</span><span class="proj-tag">Python</span><span class="proj-tag">Groq AI</span></div>
       </div>
       <div class="proj-card-footer">
@@ -396,12 +396,12 @@ footer a:hover{color:var(--pink)}
 
     <div class="proj-card reveal" data-cat="desktop">
       <div class="proj-card-header">
-        <span class="proj-icon">🖥️</span>
+        <span class="proj-icon">ðŸ–¥ï¸</span>
         <div class="proj-badges"><span class="badge badge-new">100% offline</span></div>
       </div>
       <div class="proj-card-body">
         <h3 class="proj-title">PDV Local</h3>
-        <p class="proj-desc">Ponto de venda desktop completo com Electron + SQLite. Caixa, estoque, vendas e relatórios — sem servidor, sem internet.</p>
+        <p class="proj-desc">Ponto de venda desktop completo com Electron + SQLite. Caixa, estoque, vendas e relatÃ³rios â€” sem servidor, sem internet.</p>
         <div class="proj-tags"><span class="proj-tag">Electron</span><span class="proj-tag">SQLite</span><span class="proj-tag">JavaScript</span></div>
       </div>
       <div class="proj-card-footer">
@@ -413,12 +413,12 @@ footer a:hover{color:var(--pink)}
 
     <div class="proj-card reveal" data-cat="iot">
       <div class="proj-card-header">
-        <span class="proj-icon">📡</span>
+        <span class="proj-icon">ðŸ“¡</span>
         <div class="proj-badges"><span class="badge badge-new">IoT</span></div>
       </div>
       <div class="proj-card-body">
         <h3 class="proj-title">Monitor ESP32</h3>
-        <p class="proj-desc">Monitora latência e qualidade da internet com ESP32. Alertas Telegram, portal web responsivo e atualização OTA.</p>
+        <p class="proj-desc">Monitora latÃªncia e qualidade da internet com ESP32. Alertas Telegram, portal web responsivo e atualizaÃ§Ã£o OTA.</p>
         <div class="proj-tags"><span class="proj-tag">C++</span><span class="proj-tag">ESP32</span><span class="proj-tag">Arduino</span><span class="proj-tag">Telegram</span></div>
       </div>
       <div class="proj-card-footer">
@@ -430,12 +430,12 @@ footer a:hover{color:var(--pink)}
 
     <div class="proj-card reveal" data-cat="web">
       <div class="proj-card-header">
-        <span class="proj-icon">💳</span>
+        <span class="proj-icon">ðŸ’³</span>
         <div class="proj-badges"><span class="badge badge-new">pagamentos</span></div>
       </div>
       <div class="proj-card-body">
         <h3 class="proj-title">Maquininha Web</h3>
-        <p class="proj-desc">Terminal POS no navegador com Mercado Pago — cartão e PIX. Webhook HMAC, painel admin e API REST.</p>
+        <p class="proj-desc">Terminal POS no navegador com Mercado Pago â€” cartÃ£o e PIX. Webhook HMAC, painel admin e API REST.</p>
         <div class="proj-tags"><span class="proj-tag">PHP</span><span class="proj-tag">MySQL</span><span class="proj-tag">Mercado Pago</span><span class="proj-tag">PIX</span></div>
       </div>
       <div class="proj-card-footer">
@@ -446,10 +446,10 @@ footer a:hover{color:var(--pink)}
     </div>
 
     <div class="proj-card reveal" data-cat="web">
-      <div class="proj-card-header"><span class="proj-icon">📍</span></div>
+      <div class="proj-card-header"><span class="proj-icon">ðŸ“</span></div>
       <div class="proj-card-body">
         <h3 class="proj-title">Ponto WiFi</h3>
-        <p class="proj-desc">Registro de ponto eletrônico que só funciona na rede interna do estabelecimento — segurança por localização WiFi, sem app.</p>
+        <p class="proj-desc">Registro de ponto eletrÃ´nico que sÃ³ funciona na rede interna do estabelecimento â€” seguranÃ§a por localizaÃ§Ã£o WiFi, sem app.</p>
         <div class="proj-tags"><span class="proj-tag">PHP</span><span class="proj-tag">MySQL</span></div>
       </div>
       <div class="proj-card-footer">
@@ -461,8 +461,8 @@ footer a:hover{color:var(--pink)}
 
     <div class="proj-card reveal" data-cat="bot">
       <div class="proj-card-header">
-        <span class="proj-icon">📥</span>
-        <div class="proj-badges"><span class="badge badge-new">automação</span></div>
+        <span class="proj-icon">ðŸ“¥</span>
+        <div class="proj-badges"><span class="badge badge-new">automaÃ§Ã£o</span></div>
       </div>
       <div class="proj-card-body">
         <h3 class="proj-title">Telegram Collector</h3>
@@ -477,11 +477,11 @@ footer a:hover{color:var(--pink)}
     </div>
 
     <div class="proj-card reveal" data-cat="web">
-      <div class="proj-card-header"><span class="proj-icon">🔐</span></div>
+      <div class="proj-card-header"><span class="proj-icon">ðŸ”</span></div>
       <div class="proj-card-body">
         <h3 class="proj-title">CheckSafe PHP</h3>
-        <p class="proj-desc">Detecta padrões suspeitos em checkouts — CPF inválido, email descartável — alertas Telegram em tempo real. Sem banco.</p>
-        <div class="proj-tags"><span class="proj-tag">PHP</span><span class="proj-tag">Telegram</span><span class="proj-tag">Segurança</span></div>
+        <p class="proj-desc">Detecta padrÃµes suspeitos em checkouts â€” CPF invÃ¡lido, email descartÃ¡vel â€” alertas Telegram em tempo real. Sem banco.</p>
+        <div class="proj-tags"><span class="proj-tag">PHP</span><span class="proj-tag">Telegram</span><span class="proj-tag">SeguranÃ§a</span></div>
       </div>
       <div class="proj-card-footer">
         <a href="https://github.com/BAZZUKA-ROOT/checksafe-php" target="_blank" class="proj-link proj-link-github">
@@ -492,63 +492,63 @@ footer a:hover{color:var(--pink)}
 
     <div class="proj-card reveal" data-cat="template">
       <div class="proj-card-header">
-        <span class="proj-icon">🍱</span>
+        <span class="proj-icon">ðŸ±</span>
         <div class="proj-badges"><span class="badge badge-demo">demo ao vivo</span></div>
       </div>
       <div class="proj-card-body">
         <h3 class="proj-title">Cantina da Bea</h3>
-        <p class="proj-desc">Site completo para cantina/restaurante — cardápio, galeria, WhatsApp. Mobile-first, zero dependências.</p>
+        <p class="proj-desc">Site completo para cantina/restaurante â€” cardÃ¡pio, galeria, WhatsApp. Mobile-first, zero dependÃªncias.</p>
         <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">JavaScript</span></div>
       </div>
       <div class="proj-card-footer">
         <a href="https://github.com/BAZZUKA-ROOT/cantina-bea" target="_blank" class="proj-link proj-link-github">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
         </a>
-        <a href="https://bazzuka-root.github.io/cantina-bea/" target="_blank" class="proj-link proj-link-demo">🌐 Demo</a>
+        <a href="https://bazzuka-root.github.io/cantina-bea/" target="_blank" class="proj-link proj-link-demo">ðŸŒ Demo</a>
       </div>
     </div>
 
     <div class="proj-card reveal" data-cat="template">
       <div class="proj-card-header">
-        <span class="proj-icon">🍽️</span>
+        <span class="proj-icon">ðŸ½ï¸</span>
         <div class="proj-badges"><span class="badge badge-demo">demo ao vivo</span></div>
       </div>
       <div class="proj-card-body">
         <h3 class="proj-title">Template Restaurante</h3>
-        <p class="proj-desc">Template HTML para restaurante com dark mode automático, animações CSS e integração WhatsApp. Hospedagem estática.</p>
+        <p class="proj-desc">Template HTML para restaurante com dark mode automÃ¡tico, animaÃ§Ãµes CSS e integraÃ§Ã£o WhatsApp. Hospedagem estÃ¡tica.</p>
         <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">Dark Mode</span></div>
       </div>
       <div class="proj-card-footer">
         <a href="https://github.com/BAZZUKA-ROOT/site-restaurante-template" target="_blank" class="proj-link proj-link-github">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
         </a>
-        <a href="https://bazzuka-root.github.io/site-restaurante-template/" target="_blank" class="proj-link proj-link-demo">🌐 Demo</a>
+        <a href="https://bazzuka-root.github.io/site-restaurante-template/" target="_blank" class="proj-link proj-link-demo">ðŸŒ Demo</a>
       </div>
     </div>
 
     <div class="proj-card reveal" data-cat="template">
       <div class="proj-card-header">
-        <span class="proj-icon">💳</span>
+        <span class="proj-icon">ðŸ’³</span>
         <div class="proj-badges"><span class="badge badge-demo">demo ao vivo</span></div>
       </div>
       <div class="proj-card-body">
         <h3 class="proj-title">Simulador Maquininha</h3>
-        <p class="proj-desc">Simulador web do terminal PagSeguro — interface mobile-first fiel ao original. Para demos e estudos de UX de pagamento.</p>
+        <p class="proj-desc">Simulador web do terminal PagSeguro â€” interface mobile-first fiel ao original. Para demos e estudos de UX de pagamento.</p>
         <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">UX</span></div>
       </div>
       <div class="proj-card-footer">
         <a href="https://github.com/BAZZUKA-ROOT/simulador-maquininha" target="_blank" class="proj-link proj-link-github">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
         </a>
-        <a href="https://bazzuka-root.github.io/simulador-maquininha/" target="_blank" class="proj-link proj-link-demo">🌐 Demo</a>
+        <a href="https://bazzuka-root.github.io/simulador-maquininha/" target="_blank" class="proj-link proj-link-demo">ðŸŒ Demo</a>
       </div>
     </div>
 
     <div class="proj-card reveal" data-cat="desktop">
-      <div class="proj-card-header"><span class="proj-icon">🧹</span></div>
+      <div class="proj-card-header"><span class="proj-icon">ðŸ§¹</span></div>
       <div class="proj-card-body">
         <h3 class="proj-title">Limpador Windows</h3>
-        <p class="proj-desc">Organiza Downloads, limpa Temp e detecta programas não usados no Windows 11. Agendável via PowerShell.</p>
+        <p class="proj-desc">Organiza Downloads, limpa Temp e detecta programas nÃ£o usados no Windows 11. AgendÃ¡vel via PowerShell.</p>
         <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">PowerShell</span><span class="proj-tag">Windows</span></div>
       </div>
       <div class="proj-card-footer">
@@ -559,14 +559,73 @@ footer a:hover{color:var(--pink)}
     </div>
 
     <div class="proj-card reveal" data-cat="bot">
-      <div class="proj-card-header"><span class="proj-icon">🎮</span></div>
+      <div class="proj-card-header"><span class="proj-icon">ðŸŽ®</span></div>
       <div class="proj-card-body">
         <h3 class="proj-title">Epic Automation</h3>
         <p class="proj-desc">Scripts Python para automatizar o resgate de jogos gratuitos da Epic Games Store via PyAutoGUI.</p>
-        <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">PyAutoGUI</span><span class="proj-tag">Automação</span></div>
+        <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">PyAutoGUI</span><span class="proj-tag">AutomaÃ§Ã£o</span></div>
       </div>
       <div class="proj-card-footer">
         <a href="https://github.com/BAZZUKA-ROOT/epic-automation" target="_blank" class="proj-link proj-link-github">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="bot">
+      <div class="proj-card-header">
+        <span class="proj-icon">ðŸ¤–</span>
+        <div class="proj-badges"><span class="badge badge-new">novo</span></div>
+      </div>
+      <div class="proj-card-body">
+        <h3 class="proj-title">Claude Monitor</h3>
+        <p class="proj-desc">Dashboard Flask que monitora tokens e custo da API Anthropic por perÃ­odo de cobranÃ§a. Alertas automÃ¡ticos via Telegram + histÃ³rico SQLite.</p>
+        <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">Flask</span><span class="proj-tag">Telegram</span><span class="proj-tag">Docker</span></div>
+      </div>
+      <div class="proj-card-footer">
+        <a href="https://github.com/BAZZUKA-ROOT/claude-monitor" target="_blank" class="proj-link proj-link-github">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="web">
+      <div class="proj-card-header"><span class="proj-icon">ðŸ§¾</span></div>
+      <div class="proj-card-body">
+        <h3 class="proj-title">Verificador de NF</h3>
+        <p class="proj-desc">Ferramenta web que verifica autenticidade de notas fiscais e detecta documentos falsos comparando padrÃµes e campos obrigatÃ³rios.</p>
+        <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">JavaScript</span><span class="proj-tag">Offline</span></div>
+      </div>
+      <div class="proj-card-footer">
+        <a href="https://github.com/BAZZUKA-ROOT/verificador-nota-fiscal" target="_blank" class="proj-link proj-link-github">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="web">
+      <div class="proj-card-header"><span class="proj-icon">ðŸš€</span></div>
+      <div class="proj-card-body">
+        <h3 class="proj-title">TurboSaaS</h3>
+        <p class="proj-desc">Boilerplate React + Vite para SaaS â€” autenticaÃ§Ã£o, dashboard, catÃ¡logo e pÃ¡ginas de vendas prontas para customizar e lanÃ§ar rÃ¡pido.</p>
+        <div class="proj-tags"><span class="proj-tag">React</span><span class="proj-tag">Vite</span><span class="proj-tag">SaaS</span></div>
+      </div>
+      <div class="proj-card-footer">
+        <a href="https://github.com/BAZZUKA-ROOT/turbosaas-rebuild" target="_blank" class="proj-link proj-link-github">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="web">
+      <div class="proj-card-header"><span class="proj-icon">ðŸŽ°</span></div>
+      <div class="proj-card-body">
+        <h3 class="proj-title">CasinoPearls Clone</h3>
+        <p class="proj-desc">RecriaÃ§Ã£o em Next.js de uma plataforma de cassino â€” foco em design, animaÃ§Ãµes e fluxo de navegaÃ§Ã£o para estudo de UI/UX.</p>
+        <div class="proj-tags"><span class="proj-tag">Next.js</span><span class="proj-tag">React</span><span class="proj-tag">TypeScript</span></div>
+      </div>
+      <div class="proj-card-footer">
+        <a href="https://github.com/BAZZUKA-ROOT/casinopearls-clone" target="_blank" class="proj-link proj-link-github">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
         </a>
       </div>
@@ -581,15 +640,15 @@ footer a:hover{color:var(--pink)}
 <div class="section-wrap" id="contact" style="text-align:center">
   <p class="section-label reveal" style="justify-content:center">// contato</p>
   <h2 class="section-title reveal">Vamos <span>conversar</span></h2>
-  <p class="section-desc reveal" style="margin:0 auto 0">Tem um projeto, uma ideia ou quer contratar? Me manda mensagem — respondo rápido.</p>
+  <p class="section-desc reveal" style="margin:0 auto 0">Tem um projeto, uma ideia ou quer contratar? Me manda mensagem â€” respondo rÃ¡pido.</p>
   <div class="contact-grid reveal">
     <a href="https://wa.me/5544998458841" target="_blank" class="contact-card wpp">
-      <div class="contact-icon wpp">💬</div>
+      <div class="contact-icon wpp">ðŸ’¬</div>
       <div class="contact-name">WhatsApp</div>
       <div class="contact-val">(44) 99845-8841</div>
     </a>
     <a href="https://instagram.com/maicon.lbj" target="_blank" class="contact-card ig">
-      <div class="contact-icon ig">📷</div>
+      <div class="contact-icon ig">ðŸ“·</div>
       <div class="contact-name">Instagram</div>
       <div class="contact-val">@maicon.lbj</div>
     </a>
@@ -601,7 +660,7 @@ footer a:hover{color:var(--pink)}
       <div class="contact-val">BAZZUKA-ROOT</div>
     </a>
     <a href="mailto:maiconluisbraga98@gmail.com" class="contact-card mail">
-      <div class="contact-icon mail">✉️</div>
+      <div class="contact-icon mail">âœ‰ï¸</div>
       <div class="contact-name">E-mail</div>
       <div class="contact-val">maiconluisbraga98</div>
     </a>
@@ -610,20 +669,20 @@ footer a:hover{color:var(--pink)}
 
 <!-- FOOTER -->
 <footer>
-  <p>© 2026 <strong>Bazzuka</strong> · Feito com ☕ e muito código · <a href="https://github.com/BAZZUKA-ROOT" target="_blank">BAZZUKA-ROOT</a></p>
+  <p>Â© 2026 <strong>Bazzuka</strong> Â· Feito com â˜• e muito cÃ³digo Â· <a href="https://github.com/BAZZUKA-ROOT" target="_blank">BAZZUKA-ROOT</a></p>
 </footer>
 
 <script>
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 // LOADER
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 window.addEventListener('load', () => {
   setTimeout(() => document.getElementById('loader').classList.add('done'), 1900);
 });
 
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 // CUSTOM CURSOR (desktop only)
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 (function(){
   const isMobile = /Mobi|Android/i.test(navigator.userAgent) || window.innerWidth < 768;
   if(isMobile){ document.body.classList.remove('cursor-active'); return; }
@@ -650,9 +709,9 @@ window.addEventListener('load', () => {
   });
 })();
 
-// ─────────────────────────────────────────
-// THREE.JS — HERO BACKGROUND (adaptive quality)
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// THREE.JS â€” HERO BACKGROUND (adaptive quality)
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 (function(){
   const isMobile = window.innerWidth < 768;
   const isLowEnd = navigator.hardwareConcurrency <= 2;
@@ -666,7 +725,7 @@ window.addEventListener('load', () => {
   const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 1000);
   camera.position.z = 28;
 
-  // ── PARTICLES ──
+  // â”€â”€ PARTICLES â”€â”€
   const COUNT = isMobile ? 700 : (isLowEnd ? 1000 : 1600);
   const positions = new Float32Array(COUNT * 3);
   const colors = new Float32Array(COUNT * 3);
@@ -700,7 +759,7 @@ window.addEventListener('load', () => {
   const particles = new THREE.Points(geo, mat);
   scene.add(particles);
 
-  // ── CONSTELLATION LINES (connect nearby particles) ──
+  // â”€â”€ CONSTELLATION LINES (connect nearby particles) â”€â”€
   if(!isMobile && !isLowEnd){
     const linePositions = [];
     const lineColors = [];
@@ -729,7 +788,7 @@ window.addEventListener('load', () => {
     }
   }
 
-  // ── WIREFRAME SHAPES ──
+  // â”€â”€ WIREFRAME SHAPES â”€â”€
   const shapeData = [
     {geo: new THREE.OctahedronGeometry(1.8), color: 0xA855F7},
     {geo: new THREE.TetrahedronGeometry(1.5), color: 0xEC4899},
@@ -768,7 +827,7 @@ window.addEventListener('load', () => {
     scene.add(mesh);
   }
 
-  // ── GRID ──
+  // â”€â”€ GRID â”€â”€
   if(!isMobile){
     const grid = new THREE.GridHelper(160, 32, 0x7C3AED, 0x150030);
     grid.position.y = -22;
@@ -777,7 +836,7 @@ window.addEventListener('load', () => {
     scene.add(grid);
   }
 
-  // ── INPUT: mouse + touch + gyroscope ──
+  // â”€â”€ INPUT: mouse + touch + gyroscope â”€â”€
   let inputX = 0, inputY = 0;
   const hasGyro = typeof DeviceOrientationEvent !== 'undefined';
 
@@ -838,16 +897,16 @@ window.addEventListener('load', () => {
   animate();
 })();
 
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 // TYPEWRITER
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 (function(){
   const phrases = [
     'Full-stack Developer',
-    'Automação & Bots',
-    'IoT · ESP32 · Telegram',
-    'PHP · Python · Node.js',
-    'Soluções que funcionam 🚀'
+    'AutomaÃ§Ã£o & Bots',
+    'IoT Â· ESP32 Â· Telegram',
+    'PHP Â· Python Â· Node.js',
+    'SoluÃ§Ãµes que funcionam ðŸš€'
   ];
   let pi = 0, ci = 0, del = false;
   const el = document.getElementById('typewriter');
@@ -864,9 +923,9 @@ window.addEventListener('load', () => {
   setTimeout(type, 2400);
 })();
 
-// ─────────────────────────────────────────
-// INTERSECTION OBSERVER — reveal + skill bars + counters
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// INTERSECTION OBSERVER â€” reveal + skill bars + counters
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 (function(){
   const revealObs = new IntersectionObserver(entries => {
     entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('visible'); revealObs.unobserve(e.target); } });
@@ -912,9 +971,9 @@ window.addEventListener('load', () => {
   document.querySelectorAll('[data-count]').forEach(el => counterObs.observe(el));
 })();
 
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 // PROJECT FILTER
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 (function(){
   const btns = document.querySelectorAll('.filter-btn');
   const cards = document.querySelectorAll('.proj-card');
@@ -932,9 +991,9 @@ window.addEventListener('load', () => {
   });
 })();
 
-// ─────────────────────────────────────────
-// 3D CARD TILT — desktop mouse + mobile touch
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// 3D CARD TILT â€” desktop mouse + mobile touch
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 (function(){
   const isMobile = window.innerWidth < 768;
   document.querySelectorAll('.proj-card,.contact-card,.skill-card,.stat-card').forEach(card => {
@@ -961,9 +1020,9 @@ window.addEventListener('load', () => {
   });
 })();
 
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 // RIPPLE ON BUTTONS
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 document.querySelectorAll('.btn-primary,.btn-outline,.filter-btn,.nav-cta').forEach(btn => {
   btn.style.position = 'relative';
   btn.style.overflow = 'hidden';
@@ -978,9 +1037,9 @@ document.querySelectorAll('.btn-primary,.btn-outline,.filter-btn,.nav-cta').forE
   });
 });
 
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 // NAVBAR
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 window.addEventListener('scroll', () => {
   const nb = document.getElementById('navbar');
   nb.style.background = window.scrollY > 60
@@ -1003,9 +1062,9 @@ document.querySelectorAll('#navLinks a').forEach(a => {
   });
 });
 
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 // GSAP HERO ENTRANCE
-// ─────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 if(window.gsap){
   gsap.registerPlugin(ScrollTrigger);
   const tl = gsap.timeline({delay: 2});
