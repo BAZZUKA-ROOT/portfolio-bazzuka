@@ -322,7 +322,7 @@ footer a:hover{color:var(--pink)}
     <p class="section-desc reveal-left" style="margin-bottom:16px">Sou desenvolvedor full-stack focado em soluções práticas — sistemas para pequenas empresas, automações, IoT e aplicações web que realmente funcionam.</p>
     <p class="section-desc reveal-left">Trabalho com PHP, Python, Node.js, JavaScript, Electron, React e C++ para ESP32. Cada projeto nasce de um problema real.</p>
     <div class="about-stats">
-      <div class="stat-card reveal"><div class="stat-num" data-count="15">0</div><div class="stat-label">Projetos no GitHub</div></div>
+      <div class="stat-card reveal"><div class="stat-num" data-count="17">0</div><div class="stat-label">Projetos no GitHub</div></div>
       <div class="stat-card reveal"><div class="stat-num" data-count="5">0</div><div class="stat-label">Linguagens ativas</div></div>
       <div class="stat-card reveal"><div class="stat-num">IoT</div><div class="stat-label">ESP32 & Arduino</div></div>
       <div class="stat-card reveal"><div class="stat-num">SaaS</div><div class="stat-label">Web & Desktop</div></div>
@@ -376,6 +376,57 @@ footer a:hover{color:var(--pink)}
     <button class="filter-btn" data-filter="template">Templates</button>
   </div>
   <div class="projects-grid">
+
+    <div class="proj-card reveal" data-cat="web">
+      <div class="proj-card-header">
+        <span class="proj-icon">🛡️</span>
+        <div class="proj-badges"><span class="badge badge-new">open source</span></div>
+      </div>
+      <div class="proj-card-body">
+        <h3 class="proj-title">secscan2026</h3>
+        <p class="proj-desc">Scanner de segurança para as falhas que marcaram 2026: secrets vazados, Supabase/RLS, CORS aberto, SQLi, deserialização e runtimes com CVE. Dois modos: análise de código e checagem passiva de domínio. Read-only, sem exploits.</p>
+        <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">AppSec</span><span class="proj-tag">SAST</span><span class="proj-tag">CLI</span></div>
+      </div>
+      <div class="proj-card-footer">
+        <a href="https://github.com/BAZZUKA-ROOT/secscan" target="_blank" class="proj-link proj-link-github">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="web">
+      <div class="proj-card-header">
+        <span class="proj-icon">📣</span>
+        <div class="proj-badges"><span class="badge badge-new">IA</span></div>
+      </div>
+      <div class="proj-card-body">
+        <h3 class="proj-title">Impulso</h3>
+        <p class="proj-desc">Plataforma de marketing que gera o post com IA (imagem + legenda) usando as cores da sua marca, agenda e publica no Instagram e Facebook. Modo fácil e pro, grátis e premium.</p>
+        <div class="proj-tags"><span class="proj-tag">Next.js</span><span class="proj-tag">IA</span><span class="proj-tag">TypeScript</span></div>
+      </div>
+      <div class="proj-card-footer">
+        <a href="https://github.com/BAZZUKA-ROOT/impulso" target="_blank" class="proj-link proj-link-github">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="web">
+      <div class="proj-card-header">
+        <span class="proj-icon">🏷️</span>
+        <div class="proj-badges"><span class="badge badge-new">SaaS</span></div>
+      </div>
+      <div class="proj-card-body">
+        <h3 class="proj-title">Comparou</h3>
+        <p class="proj-desc">Comparador de preços multi-loja. Uma busca traz o mesmo produto em várias lojas (via Google Shopping), com radar diário que acompanha o histórico e avisa quando o preço cai. Versão grátis e premium.</p>
+        <div class="proj-tags"><span class="proj-tag">Next.js</span><span class="proj-tag">TypeScript</span><span class="proj-tag">Node.js</span></div>
+      </div>
+      <div class="proj-card-footer">
+        <a href="https://github.com/BAZZUKA-ROOT/comparou" target="_blank" class="proj-link proj-link-github">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
+        </a>
+      </div>
+    </div>
 
     <div class="proj-card reveal" data-cat="web">
       <div class="proj-card-header">
@@ -567,6 +618,65 @@ footer a:hover{color:var(--pink)}
       </div>
       <div class="proj-card-footer">
         <a href="https://github.com/BAZZUKA-ROOT/epic-automation" target="_blank" class="proj-link proj-link-github">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="bot">
+      <div class="proj-card-header">
+        <span class="proj-icon">🤖</span>
+        <div class="proj-badges"><span class="badge badge-new">novo</span></div>
+      </div>
+      <div class="proj-card-body">
+        <h3 class="proj-title">Claude Monitor</h3>
+        <p class="proj-desc">Dashboard Flask que monitora tokens e custo da API Anthropic por período de cobrança. Alertas automáticos via Telegram + histórico SQLite.</p>
+        <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">Flask</span><span class="proj-tag">Telegram</span><span class="proj-tag">Docker</span></div>
+      </div>
+      <div class="proj-card-footer">
+        <a href="https://github.com/BAZZUKA-ROOT/claude-monitor" target="_blank" class="proj-link proj-link-github">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="web">
+      <div class="proj-card-header"><span class="proj-icon">🧾</span></div>
+      <div class="proj-card-body">
+        <h3 class="proj-title">Verificador de NF</h3>
+        <p class="proj-desc">Ferramenta web que verifica autenticidade de notas fiscais e detecta documentos falsos comparando padrões e campos obrigatórios.</p>
+        <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">JavaScript</span><span class="proj-tag">Offline</span></div>
+      </div>
+      <div class="proj-card-footer">
+        <a href="https://github.com/BAZZUKA-ROOT/verificador-nota-fiscal" target="_blank" class="proj-link proj-link-github">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="web">
+      <div class="proj-card-header"><span class="proj-icon">🚀</span></div>
+      <div class="proj-card-body">
+        <h3 class="proj-title">TurboSaaS</h3>
+        <p class="proj-desc">Boilerplate React + Vite para SaaS — autenticação, dashboard, catálogo e páginas de vendas prontas para customizar e lançar rápido.</p>
+        <div class="proj-tags"><span class="proj-tag">React</span><span class="proj-tag">Vite</span><span class="proj-tag">SaaS</span></div>
+      </div>
+      <div class="proj-card-footer">
+        <a href="https://github.com/BAZZUKA-ROOT/turbosaas-rebuild" target="_blank" class="proj-link proj-link-github">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="web">
+      <div class="proj-card-header"><span class="proj-icon">🎰</span></div>
+      <div class="proj-card-body">
+        <h3 class="proj-title">CasinoPearls Clone</h3>
+        <p class="proj-desc">Recriação em Next.js de uma plataforma de cassino — foco em design, animações e fluxo de navegação para estudo de UI/UX.</p>
+        <div class="proj-tags"><span class="proj-tag">Next.js</span><span class="proj-tag">React</span><span class="proj-tag">TypeScript</span></div>
+      </div>
+      <div class="proj-card-footer">
+        <a href="https://github.com/BAZZUKA-ROOT/casinopearls-clone" target="_blank" class="proj-link proj-link-github">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
         </a>
       </div>
