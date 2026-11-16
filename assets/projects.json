@@ -144,6 +144,15 @@
     "updated": "2026-11-04T02:44:34Z"
   },
   {
+    "name": "qa-gestor-projetos-20261116",
+    "url": "https://github.com/BAZZUKA-ROOT/qa-gestor-projetos-20261116",
+    "description": "Repositório público de teste: verifica lançamentos e atualizações GitHub/portfólio sem expor projetos reais.",
+    "title": "Validação de publicação — Gestor Bazzuka",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-11-16T19:50:58Z"
+  },
+  {
     "name": "secscan",
     "url": "https://github.com/BAZZUKA-ROOT/secscan",
     "description": "Projeto de código aberto.",
