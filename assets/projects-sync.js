@@ -17,6 +17,15 @@
       a.href.toLowerCase().startsWith(githubPrefix));
     if (a) existing.set(a.href.split("/").filter(Boolean).pop().toLowerCase(), card);
   }
+  // A vitrine pública só exibe repositórios que constam no catálogo público.
+  const publicRepos = new Set(repos.filter(p => p && typeof p.name === "string")
+    .map(p => p.name.toLowerCase()));
+  for (const [slug, card] of existing) {
+    if (!publicRepos.has(slug)) {
+      card.remove();
+      existing.delete(slug);
+    }
+  }
   function element(tag, className, text) {
     const e = document.createElement(tag);
     if (className) e.className = className;
