@@ -6,6 +6,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "JavaScript",
+    "topics": [],
     "updated": "2026-11-06T16:58:12Z"
   },
   {
@@ -15,6 +17,8 @@
     "title": "",
     "category": "web",
     "homepage": "https://bazzuka-root.github.io/cantina-bea/",
+    "language": "HTML",
+    "topics": [],
     "updated": "2026-10-28T13:56:54Z"
   },
   {
@@ -24,6 +28,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "HTML",
+    "topics": [],
     "updated": "2026-11-02T00:49:13Z"
   },
   {
@@ -33,6 +39,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "TypeScript",
+    "topics": [],
     "updated": "2026-10-25T21:27:11Z"
   },
   {
@@ -42,6 +50,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "PHP",
+    "topics": [],
     "updated": "2026-10-25T20:48:48Z"
   },
   {
@@ -51,6 +61,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "Python",
+    "topics": [],
     "updated": "2026-10-25T22:21:21Z"
   },
   {
@@ -60,6 +72,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "TypeScript",
+    "topics": [],
     "updated": "2026-10-26T22:18:57Z"
   },
   {
@@ -69,6 +83,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "Python",
+    "topics": [],
     "updated": "2026-10-25T20:46:52Z"
   },
   {
@@ -78,6 +94,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "TypeScript",
+    "topics": [],
     "updated": "2026-10-26T22:19:06Z"
   },
   {
@@ -87,6 +105,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "Python",
+    "topics": [],
     "updated": "2026-10-25T20:42:09Z"
   },
   {
@@ -96,6 +116,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "PHP",
+    "topics": [],
     "updated": "2026-10-25T21:27:37Z"
   },
   {
@@ -105,6 +127,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "C++",
+    "topics": [],
     "updated": "2026-10-25T20:47:39Z"
   },
   {
@@ -114,6 +138,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "JavaScript",
+    "topics": [],
     "updated": "2026-10-25T21:26:35Z"
   },
   {
@@ -123,6 +149,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "PHP",
+    "topics": [],
     "updated": "2026-10-25T20:49:48Z"
   },
   {
@@ -132,6 +160,17 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "PHP",
+    "topics": [
+      "3d-animations",
+      "developer-portfolio",
+      "full-stack",
+      "gsap",
+      "php",
+      "portfolio",
+      "responsive",
+      "threejs"
+    ],
     "updated": "2026-10-28T00:47:29Z"
   },
   {
@@ -141,6 +180,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "Python",
+    "topics": [],
     "updated": "2026-11-04T02:44:34Z"
   },
   {
@@ -150,6 +191,8 @@
     "title": "Validação de publicação — Gestor Bazzuka",
     "category": "web",
     "homepage": "",
+    "language": "HTML",
+    "topics": [],
     "updated": "2026-11-16T19:51:06Z"
   },
   {
@@ -159,6 +202,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "Python",
+    "topics": [],
     "updated": "2026-10-26T22:18:41Z"
   },
   {
@@ -168,6 +213,8 @@
     "title": "",
     "category": "web",
     "homepage": "https://bazzuka-root.github.io/simulador-maquininha/",
+    "language": "HTML",
+    "topics": [],
     "updated": "2026-10-25T21:41:33Z"
   },
   {
@@ -177,6 +224,8 @@
     "title": "",
     "category": "web",
     "homepage": "https://bazzuka-root.github.io/site-restaurante-template/",
+    "language": "HTML",
+    "topics": [],
     "updated": "2026-10-25T21:41:33Z"
   },
   {
@@ -186,6 +235,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "Python",
+    "topics": [],
     "updated": "2026-11-14T15:58:46Z"
   },
   {
@@ -195,6 +246,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "JavaScript",
+    "topics": [],
     "updated": "2026-10-27T22:27:26Z"
   },
   {
@@ -204,6 +257,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "Python",
+    "topics": [],
     "updated": "2026-10-25T20:45:21Z"
   },
   {
@@ -213,6 +268,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "JavaScript",
+    "topics": [],
     "updated": "2026-10-25T21:26:56Z"
   },
   {
@@ -222,6 +279,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "HTML",
+    "topics": [],
     "updated": "2026-10-25T20:40:33Z"
   },
   {
@@ -231,6 +290,8 @@
     "title": "",
     "category": "web",
     "homepage": "https://bazzuka-root.github.io/verificador-nota-fiscal/",
+    "language": "HTML",
+    "topics": [],
     "updated": "2026-10-25T21:41:35Z"
   },
   {
@@ -240,6 +301,8 @@
     "title": "",
     "category": "web",
     "homepage": "",
+    "language": "Python",
+    "topics": [],
     "updated": "2026-11-06T15:40:51Z"
   }
 ]
