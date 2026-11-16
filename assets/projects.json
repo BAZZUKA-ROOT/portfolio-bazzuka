@@ -1,0 +1,236 @@
+[
+  {
+    "name": "BAZZUKA-ROOT",
+    "url": "https://github.com/BAZZUKA-ROOT/BAZZUKA-ROOT",
+    "description": "GitHub profile README",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-11-06T16:58:12Z"
+  },
+  {
+    "name": "cantina-bea",
+    "url": "https://github.com/BAZZUKA-ROOT/cantina-bea",
+    "description": "🍱 Site responsivo para cantina/restaurante — buffet, delivery com pedido pelo WhatsApp e rota no mapa. Template mobile-first sem backend",
+    "title": "",
+    "category": "web",
+    "homepage": "https://bazzuka-root.github.io/cantina-bea/",
+    "updated": "2026-10-28T13:56:54Z"
+  },
+  {
+    "name": "caren-bragagnollo",
+    "url": "https://github.com/BAZZUKA-ROOT/caren-bragagnollo",
+    "description": "Projeto de código aberto.",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-11-02T00:49:13Z"
+  },
+  {
+    "name": "casinopearls-clone",
+    "url": "https://github.com/BAZZUKA-ROOT/casinopearls-clone",
+    "description": "🎰 Interface Next.js de plataforma de cassino — estudo de UX/UI com animações e componentes de jogos",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-25T21:27:11Z"
+  },
+  {
+    "name": "checksafe-php",
+    "url": "https://github.com/BAZZUKA-ROOT/checksafe-php",
+    "description": "Verificador PHP de segurança em checkouts — detecta fraudes e envia alertas Telegram",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-25T20:48:48Z"
+  },
+  {
+    "name": "claude-monitor",
+    "url": "https://github.com/BAZZUKA-ROOT/claude-monitor",
+    "description": "Monitor de uso da API Anthropic com alertas Telegram e dashboard web",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-25T22:21:21Z"
+  },
+  {
+    "name": "comparou",
+    "url": "https://github.com/BAZZUKA-ROOT/comparou",
+    "description": "Projeto de código aberto.",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-26T22:18:57Z"
+  },
+  {
+    "name": "epic-automation",
+    "url": "https://github.com/BAZZUKA-ROOT/epic-automation",
+    "description": "🎮 Scripts Python para automatizar o resgate de jogos gratuitos da Epic Games Store",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-25T20:46:52Z"
+  },
+  {
+    "name": "impulso",
+    "url": "https://github.com/BAZZUKA-ROOT/impulso",
+    "description": "Projeto de código aberto.",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-26T22:19:06Z"
+  },
+  {
+    "name": "limpador-automatico-windows",
+    "url": "https://github.com/BAZZUKA-ROOT/limpador-automatico-windows",
+    "description": "🧹 Limpador automático para Windows 11: organiza Downloads, limpa Temp e detecta programas não usados",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-25T20:42:09Z"
+  },
+  {
+    "name": "maquininha-web-php",
+    "url": "https://github.com/BAZZUKA-ROOT/maquininha-web-php",
+    "description": "💳 Sistema PHP de pagamentos web com Mercado Pago — interface POS no navegador, PIX e cartão, webhook e painel admin",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-25T21:27:37Z"
+  },
+  {
+    "name": "monitor-internet-esp32",
+    "url": "https://github.com/BAZZUKA-ROOT/monitor-internet-esp32",
+    "description": "📡 Monitor de internet com ESP32 — mede latência/jitter, classifica qualidade e envia alertas via Telegram",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-25T20:47:39Z"
+  },
+  {
+    "name": "pdv-local",
+    "url": "https://github.com/BAZZUKA-ROOT/pdv-local",
+    "description": "Projeto de código aberto.",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-25T21:26:35Z"
+  },
+  {
+    "name": "ponto-wifi-php",
+    "url": "https://github.com/BAZZUKA-ROOT/ponto-wifi-php",
+    "description": "Sistema de ponto eletrônico PHP — funcionários registram via WiFi local, com painel de relatórios",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-25T20:49:48Z"
+  },
+  {
+    "name": "portfolio-bazzuka",
+    "url": "https://github.com/BAZZUKA-ROOT/portfolio-bazzuka",
+    "description": "Portfolio profissional full-stack com Three.js 3D, animacoes GSAP e suporte mobile",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-28T00:47:29Z"
+  },
+  {
+    "name": "produ-o-de-v-deos",
+    "url": "https://github.com/BAZZUKA-ROOT/produ-o-de-v-deos",
+    "description": "plataforma própria de produção de vídeos com IA para empresas, utilizando ferramentas open source e gratuitas, para que você consiga produzir vídeos promocionais e vender esse serviço para lojas, restaurantes, clínicas e outros negócios.",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-11-04T02:44:34Z"
+  },
+  {
+    "name": "secscan",
+    "url": "https://github.com/BAZZUKA-ROOT/secscan",
+    "description": "Projeto de código aberto.",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-26T22:18:41Z"
+  },
+  {
+    "name": "simulador-maquininha",
+    "url": "https://github.com/BAZZUKA-ROOT/simulador-maquininha",
+    "description": "💳 Simulador web de terminal PagSeguro — interface mobile-first para demonstrações e estudos de UX",
+    "title": "",
+    "category": "web",
+    "homepage": "https://bazzuka-root.github.io/simulador-maquininha/",
+    "updated": "2026-10-25T21:41:33Z"
+  },
+  {
+    "name": "site-restaurante-template",
+    "url": "https://github.com/BAZZUKA-ROOT/site-restaurante-template",
+    "description": "🍽️ Template HTML responsivo para restaurante — menu, galeria, dark mode automático e pedido pelo WhatsApp. Zero dependências",
+    "title": "",
+    "category": "web",
+    "homepage": "https://bazzuka-root.github.io/site-restaurante-template/",
+    "updated": "2026-10-25T21:41:33Z"
+  },
+  {
+    "name": "super-central-public",
+    "url": "https://github.com/BAZZUKA-ROOT/super-central-public",
+    "description": "Super Central public catalog MCP preview (no local PC control)",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-11-14T15:58:46Z"
+  },
+  {
+    "name": "ta-seguro",
+    "url": "https://github.com/BAZZUKA-ROOT/ta-seguro",
+    "description": "Detector de golpes para idosos: cole a mensagem e descubra se e golpe. Roda 100% no celular.",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-27T22:27:26Z"
+  },
+  {
+    "name": "telegram-collector",
+    "url": "https://github.com/BAZZUKA-ROOT/telegram-collector",
+    "description": "📥 Bot Python para baixar e categorizar arquivos do Telegram automaticamente — monitora grupos e canais",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-25T20:45:21Z"
+  },
+  {
+    "name": "turbosaas-rebuild",
+    "url": "https://github.com/BAZZUKA-ROOT/turbosaas-rebuild",
+    "description": "🚀 Landing page Vite/React para plataforma SaaS de IA — catálogo de ferramentas, dashboard e sistema de checkout",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-25T21:26:56Z"
+  },
+  {
+    "name": "veltora",
+    "url": "https://github.com/BAZZUKA-ROOT/veltora",
+    "description": "⚡ Gerador de sites profissionais + CRM para prospecção de negócios locais via WhatsApp",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-10-25T20:40:33Z"
+  },
+  {
+    "name": "verificador-nota-fiscal",
+    "url": "https://github.com/BAZZUKA-ROOT/verificador-nota-fiscal",
+    "description": "🧾 Ferramenta web para verificar autenticidade de notas fiscais — detecta documentos falsos, zero dependências",
+    "title": "",
+    "category": "web",
+    "homepage": "https://bazzuka-root.github.io/verificador-nota-fiscal/",
+    "updated": "2026-10-25T21:41:35Z"
+  },
+  {
+    "name": "votemais-leads",
+    "url": "https://github.com/BAZZUKA-ROOT/votemais-leads",
+    "description": "Plataforma interna de prospecção da VoteMais: encontra organizadores de concursos e eventos com votação em todo o Brasil, coleta contatos públicos com fonte, classifica oportunidades e prepara mensagens para envio manual pelo WhatsApp.",
+    "title": "",
+    "category": "web",
+    "homepage": "",
+    "updated": "2026-11-06T15:40:51Z"
+  }
+]
