@@ -58,7 +58,7 @@
     "impulso": "🚀",
     "pdv-local": "🧾",
     "secscan": "🛡️",
-    "qa-gestor-projetos-20261116": "🧪"
+    "gestorprojetosqa": "🧪"
   };
 
   const aliases = {
@@ -128,7 +128,7 @@
       "votemais-leads": "VoteMais Leads",
       "pdv-local": "PDV Local",
       "secscan": "SecScan",
-      "qa-gestor-projetos-20261116": "Gestor Bazzuka · Validação"
+      "gestorprojetosqa": "Gestor de Projetos QA"
     };
     return predefined[p.name.toLowerCase()] ||
       p.name.replace(/[-_]+/g, " ").replace(/\b\p{L}/gu, c => c.toLocaleUpperCase("pt-BR"));
@@ -190,7 +190,7 @@
     const name = p.name.toLowerCase();
     if (name === "bazzuka-root") return "perfil GitHub";
     if (name === "portfolio-bazzuka") return "portfólio";
-    if (name.startsWith("qa-")) return "projeto de teste";
+    if (name.startsWith("qa-") || name === "gestorprojetosqa") return "projeto de teste";
     return { web: "web & SaaS", desktop: "aplicativo",
       bot: "automação", iot: "hardware & IoT", template: "template" }[category];
   }

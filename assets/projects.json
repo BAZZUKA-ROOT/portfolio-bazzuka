@@ -2,164 +2,275 @@
   {
     "name": "BAZZUKA-ROOT",
     "url": "https://github.com/BAZZUKA-ROOT/BAZZUKA-ROOT",
-    "description": "GitHub profile README",
+    "description": "Perfil GitHub de Bazzuka com projetos, métricas e stack atualizados automaticamente.",
     "title": "",
     "category": "web",
-    "homepage": "",
+    "homepage": "https://bazzuka-root.github.io/portfolio-bazzuka/",
     "language": "JavaScript",
-    "topics": [],
-    "updated": "2026-11-06T16:58:12Z"
+    "topics": [
+      "automation",
+      "developer-portfolio",
+      "github-actions",
+      "github-profile",
+      "profile-readme"
+    ],
+    "updated": "2026-11-17T00:09:47Z"
   },
   {
     "name": "cantina-bea",
     "url": "https://github.com/BAZZUKA-ROOT/cantina-bea",
-    "description": "🍱 Site responsivo para cantina/restaurante — buffet, delivery com pedido pelo WhatsApp e rota no mapa. Template mobile-first sem backend",
+    "description": "Site responsivo para cantina e restaurante, com pedidos pelo WhatsApp e localização no mapa.",
     "title": "",
     "category": "web",
     "homepage": "https://bazzuka-root.github.io/cantina-bea/",
     "language": "HTML",
-    "topics": [],
-    "updated": "2026-10-28T13:56:54Z"
+    "topics": [
+      "css",
+      "github-pages",
+      "html",
+      "javascript",
+      "restaurant",
+      "whatsapp"
+    ],
+    "updated": "2026-11-17T00:09:49Z"
   },
   {
     "name": "caren-bragagnollo",
     "url": "https://github.com/BAZZUKA-ROOT/caren-bragagnollo",
-    "description": "Projeto de código aberto.",
+    "description": "Site de agendamento e painel de gestão para estética facial, com Supabase e GitHub Pages.",
     "title": "",
     "category": "web",
-    "homepage": "",
+    "homepage": "https://bazzuka-root.github.io/caren-bragagnollo/",
     "language": "HTML",
-    "topics": [],
-    "updated": "2026-11-02T00:49:13Z"
+    "topics": [
+      "appointment-scheduling",
+      "beauty",
+      "crm",
+      "github-pages",
+      "html",
+      "javascript",
+      "supabase"
+    ],
+    "updated": "2026-11-17T00:09:53Z"
   },
   {
     "name": "casinopearls-clone",
     "url": "https://github.com/BAZZUKA-ROOT/casinopearls-clone",
-    "description": "🎰 Interface Next.js de plataforma de cassino — estudo de UX/UI com animações e componentes de jogos",
+    "description": "Protótipo de interface de plataforma de cassino com Next.js e TypeScript para estudo de UX/UI.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "TypeScript",
-    "topics": [],
-    "updated": "2026-10-25T21:27:11Z"
+    "topics": [
+      "frontend",
+      "nextjs",
+      "react",
+      "typescript",
+      "ui-ux",
+      "user-interface"
+    ],
+    "updated": "2026-11-17T00:09:56Z"
   },
   {
     "name": "checksafe-php",
     "url": "https://github.com/BAZZUKA-ROOT/checksafe-php",
-    "description": "Verificador PHP de segurança em checkouts — detecta fraudes e envia alertas Telegram",
+    "description": "Verificador de segurança para checkouts em PHP, com detecção de fraudes e alertas pelo Telegram.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "PHP",
-    "topics": [],
-    "updated": "2026-10-25T20:48:48Z"
+    "topics": [
+      "checkout",
+      "fraud-detection",
+      "php",
+      "security",
+      "telegram-bot"
+    ],
+    "updated": "2026-11-17T00:09:59Z"
   },
   {
     "name": "claude-monitor",
     "url": "https://github.com/BAZZUKA-ROOT/claude-monitor",
-    "description": "Monitor de uso da API Anthropic com alertas Telegram e dashboard web",
+    "description": "Painel de monitoramento de uso da API Anthropic, com alertas pelo Telegram e dashboard web.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "Python",
-    "topics": [],
-    "updated": "2026-10-25T22:21:21Z"
+    "topics": [
+      "anthropic",
+      "api-monitoring",
+      "dashboard",
+      "python",
+      "telegram"
+    ],
+    "updated": "2026-11-17T00:10:01Z"
   },
   {
     "name": "comparou",
     "url": "https://github.com/BAZZUKA-ROOT/comparou",
-    "description": "Projeto de código aberto.",
+    "description": "Comparador de preços entre lojas, com histórico de valores e alertas de queda de preço por e-mail.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "TypeScript",
-    "topics": [],
-    "updated": "2026-10-26T22:18:57Z"
+    "topics": [
+      "ecommerce",
+      "email-alerts",
+      "nextjs",
+      "price-comparison",
+      "price-tracker",
+      "typescript"
+    ],
+    "updated": "2026-11-17T00:10:04Z"
   },
   {
     "name": "epic-automation",
     "url": "https://github.com/BAZZUKA-ROOT/epic-automation",
-    "description": "🎮 Scripts Python para automatizar o resgate de jogos gratuitos da Epic Games Store",
+    "description": "Scripts Python para automatizar o resgate de jogos gratuitos na Epic Games Store.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "Python",
-    "topics": [],
-    "updated": "2026-10-25T20:46:52Z"
+    "topics": [
+      "automation",
+      "epic-games",
+      "free-games",
+      "python"
+    ],
+    "updated": "2026-11-17T00:10:07Z"
+  },
+  {
+    "name": "GestorProjetosQA",
+    "url": "https://github.com/BAZZUKA-ROOT/GestorProjetosQA",
+    "description": "Repositório sintético para validar publicação e rollback no Gestor Bazzuka.",
+    "title": "Gestor de Projetos QA",
+    "category": "web",
+    "homepage": "",
+    "language": "HTML",
+    "topics": [
+      "github-api",
+      "html",
+      "integration-testing",
+      "project-management",
+      "quality-assurance"
+    ],
+    "updated": "2026-11-17T00:10:31Z"
   },
   {
     "name": "impulso",
     "url": "https://github.com/BAZZUKA-ROOT/impulso",
-    "description": "Projeto de código aberto.",
+    "description": "Plataforma de criação de posts com IA e agendamento para Instagram e Facebook, sujeita à aprovação da Meta.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "TypeScript",
-    "topics": [],
-    "updated": "2026-10-26T22:19:06Z"
+    "topics": [
+      "facebook",
+      "generative-ai",
+      "instagram",
+      "marketing",
+      "meta-api",
+      "nextjs",
+      "social-media",
+      "typescript"
+    ],
+    "updated": "2026-11-17T00:10:09Z"
   },
   {
     "name": "limpador-automatico-windows",
     "url": "https://github.com/BAZZUKA-ROOT/limpador-automatico-windows",
-    "description": "🧹 Limpador automático para Windows 11: organiza Downloads, limpa Temp e detecta programas não usados",
+    "description": "Utilitário Python para limpeza de arquivos temporários e organização de downloads no Windows.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "Python",
-    "topics": [],
-    "updated": "2026-10-25T20:42:09Z"
+    "topics": [
+      "automation",
+      "cleanup",
+      "desktop",
+      "python",
+      "windows"
+    ],
+    "updated": "2026-11-17T00:10:12Z"
   },
   {
     "name": "maquininha-web-php",
     "url": "https://github.com/BAZZUKA-ROOT/maquininha-web-php",
-    "description": "💳 Sistema PHP de pagamentos web com Mercado Pago — interface POS no navegador, PIX e cartão, webhook e painel admin",
+    "description": "Sistema PHP de pagamentos web com Mercado Pago, PIX, cartão, webhooks e painel administrativo.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "PHP",
-    "topics": [],
-    "updated": "2026-10-25T21:27:37Z"
+    "topics": [
+      "mercado-pago",
+      "payments",
+      "php",
+      "pix",
+      "point-of-sale",
+      "webhooks"
+    ],
+    "updated": "2026-11-17T00:10:15Z"
   },
   {
     "name": "monitor-internet-esp32",
     "url": "https://github.com/BAZZUKA-ROOT/monitor-internet-esp32",
-    "description": "📡 Monitor de internet com ESP32 — mede latência/jitter, classifica qualidade e envia alertas via Telegram",
+    "description": "Monitor de conexão à internet com ESP32, métricas de latência e jitter e alertas pelo Telegram.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "C++",
-    "topics": [],
-    "updated": "2026-10-25T20:47:39Z"
+    "topics": [
+      "cplusplus",
+      "esp32",
+      "iot",
+      "latency",
+      "network-monitoring",
+      "telegram"
+    ],
+    "updated": "2026-11-17T00:10:18Z"
   },
   {
     "name": "pdv-local",
     "url": "https://github.com/BAZZUKA-ROOT/pdv-local",
-    "description": "Projeto de código aberto.",
+    "description": "PDV desktop com Electron e SQLite para vendas, estoque, clientes, caixa e relatórios locais.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "JavaScript",
-    "topics": [],
-    "updated": "2026-10-25T21:26:35Z"
+    "topics": [
+      "desktop",
+      "electron",
+      "inventory",
+      "javascript",
+      "point-of-sale",
+      "sqlite"
+    ],
+    "updated": "2026-11-17T00:10:21Z"
   },
   {
     "name": "ponto-wifi-php",
     "url": "https://github.com/BAZZUKA-ROOT/ponto-wifi-php",
-    "description": "Sistema de ponto eletrônico PHP — funcionários registram via WiFi local, com painel de relatórios",
+    "description": "Sistema de ponto eletrônico em PHP por Wi-Fi local, com funcionários e relatórios.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "PHP",
-    "topics": [],
-    "updated": "2026-10-25T20:49:48Z"
+    "topics": [
+      "employee-management",
+      "php",
+      "reports",
+      "time-tracking",
+      "wifi"
+    ],
+    "updated": "2026-11-17T00:10:23Z"
   },
   {
     "name": "portfolio-bazzuka",
     "url": "https://github.com/BAZZUKA-ROOT/portfolio-bazzuka",
-    "description": "Portfolio profissional full-stack com Three.js 3D, animacoes GSAP e suporte mobile",
+    "description": "Portfólio full-stack de projetos com Three.js, animações GSAP e layout responsivo.",
     "title": "",
     "category": "web",
-    "homepage": "",
+    "homepage": "https://bazzuka-root.github.io/portfolio-bazzuka/",
     "language": "PHP",
     "topics": [
       "3d-animations",
@@ -171,138 +282,199 @@
       "responsive",
       "threejs"
     ],
-    "updated": "2026-10-28T00:47:29Z"
+    "updated": "2026-11-17T00:10:25Z"
   },
   {
     "name": "produ-o-de-v-deos",
     "url": "https://github.com/BAZZUKA-ROOT/produ-o-de-v-deos",
-    "description": "plataforma própria de produção de vídeos com IA para empresas, utilizando ferramentas open source e gratuitas, para que você consiga produzir vídeos promocionais e vender esse serviço para lojas, restaurantes, clínicas e outros negócios.",
+    "description": "Plataforma de produção de vídeos promocionais com IA e ferramentas open source para empresas.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "Python",
-    "topics": [],
-    "updated": "2026-11-04T02:44:34Z"
-  },
-  {
-    "name": "qa-gestor-projetos-20261116",
-    "url": "https://github.com/BAZZUKA-ROOT/qa-gestor-projetos-20261116",
-    "description": "Repositório público de teste: verifica lançamentos e atualizações GitHub/portfólio sem expor projetos reais.",
-    "title": "Validação de publicação — Gestor Bazzuka",
-    "category": "web",
-    "homepage": "",
-    "language": "HTML",
-    "topics": [],
-    "updated": "2026-11-16T19:51:06Z"
+    "topics": [
+      "automation",
+      "generative-ai",
+      "open-source",
+      "python",
+      "video-production"
+    ],
+    "updated": "2026-11-17T00:10:28Z"
   },
   {
     "name": "secscan",
     "url": "https://github.com/BAZZUKA-ROOT/secscan",
-    "description": "Projeto de código aberto.",
+    "description": "Scanner heurístico de segurança para segredos, configurações, dependências e URLs autorizadas.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "Python",
-    "topics": [],
-    "updated": "2026-10-26T22:18:41Z"
+    "topics": [
+      "cve",
+      "owasp",
+      "python",
+      "secret-scanning",
+      "security-scanner",
+      "static-analysis"
+    ],
+    "updated": "2026-11-17T00:10:33Z"
   },
   {
     "name": "simulador-maquininha",
     "url": "https://github.com/BAZZUKA-ROOT/simulador-maquininha",
-    "description": "💳 Simulador web de terminal PagSeguro — interface mobile-first para demonstrações e estudos de UX",
+    "description": "Simulador web de terminal de pagamento para demonstrações de UX com interface mobile-first.",
     "title": "",
     "category": "web",
     "homepage": "https://bazzuka-root.github.io/simulador-maquininha/",
     "language": "HTML",
-    "topics": [],
-    "updated": "2026-10-25T21:41:33Z"
+    "topics": [
+      "css",
+      "html",
+      "javascript",
+      "payment-terminal",
+      "simulator",
+      "ux-design"
+    ],
+    "updated": "2026-11-17T00:10:36Z"
   },
   {
     "name": "site-restaurante-template",
     "url": "https://github.com/BAZZUKA-ROOT/site-restaurante-template",
-    "description": "🍽️ Template HTML responsivo para restaurante — menu, galeria, dark mode automático e pedido pelo WhatsApp. Zero dependências",
+    "description": "Template HTML responsivo para restaurantes, com cardápio, galeria, modo escuro e WhatsApp.",
     "title": "",
     "category": "web",
     "homepage": "https://bazzuka-root.github.io/site-restaurante-template/",
     "language": "HTML",
-    "topics": [],
-    "updated": "2026-10-25T21:41:33Z"
+    "topics": [
+      "css",
+      "html",
+      "javascript",
+      "responsive-template",
+      "restaurant",
+      "whatsapp"
+    ],
+    "updated": "2026-11-17T00:10:39Z"
   },
   {
     "name": "super-central-public",
     "url": "https://github.com/BAZZUKA-ROOT/super-central-public",
-    "description": "Super Central public catalog MCP preview (no local PC control)",
+    "description": "Catálogo público de ferramentas e integrações MCP da Super Central, sem controle de computador local.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "Python",
-    "topics": [],
-    "updated": "2026-11-14T15:58:46Z"
+    "topics": [
+      "automation",
+      "developer-tools",
+      "integrations",
+      "mcp",
+      "open-source",
+      "python"
+    ],
+    "updated": "2026-11-17T00:10:41Z"
   },
   {
     "name": "ta-seguro",
     "url": "https://github.com/BAZZUKA-ROOT/ta-seguro",
-    "description": "Detector de golpes para idosos: cole a mensagem e descubra se e golpe. Roda 100% no celular.",
+    "description": "Aplicação web para identificar indícios de golpes em mensagens, com interface acessível para celular.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "JavaScript",
-    "topics": [],
-    "updated": "2026-10-27T22:27:26Z"
+    "topics": [
+      "accessibility",
+      "anti-scam",
+      "cybersecurity",
+      "javascript",
+      "web-app"
+    ],
+    "updated": "2026-11-17T00:10:44Z"
   },
   {
     "name": "telegram-collector",
     "url": "https://github.com/BAZZUKA-ROOT/telegram-collector",
-    "description": "📥 Bot Python para baixar e categorizar arquivos do Telegram automaticamente — monitora grupos e canais",
+    "description": "Bot Python para baixar e organizar arquivos de grupos e canais do Telegram.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "Python",
-    "topics": [],
-    "updated": "2026-10-25T20:45:21Z"
+    "topics": [
+      "automation",
+      "downloads",
+      "file-management",
+      "python",
+      "telegram-bot"
+    ],
+    "updated": "2026-11-17T00:10:47Z"
   },
   {
     "name": "turbosaas-rebuild",
     "url": "https://github.com/BAZZUKA-ROOT/turbosaas-rebuild",
-    "description": "🚀 Landing page Vite/React para plataforma SaaS de IA — catálogo de ferramentas, dashboard e sistema de checkout",
+    "description": "Protótipo de landing page e dashboard SaaS de IA com React, catálogo e fluxo de checkout.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "JavaScript",
-    "topics": [],
-    "updated": "2026-10-25T21:26:56Z"
+    "topics": [
+      "artificial-intelligence",
+      "checkout",
+      "dashboard",
+      "javascript",
+      "react",
+      "saas",
+      "vite"
+    ],
+    "updated": "2026-11-17T00:10:50Z"
   },
   {
     "name": "veltora",
     "url": "https://github.com/BAZZUKA-ROOT/veltora",
-    "description": "⚡ Gerador de sites profissionais + CRM para prospecção de negócios locais via WhatsApp",
+    "description": "Gerador de sites e CRM para prospecção de negócios locais via WhatsApp.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "HTML",
-    "topics": [],
-    "updated": "2026-10-25T20:40:33Z"
+    "topics": [
+      "crm",
+      "html",
+      "lead-generation",
+      "website-builder",
+      "whatsapp"
+    ],
+    "updated": "2026-11-17T00:10:52Z"
   },
   {
     "name": "verificador-nota-fiscal",
     "url": "https://github.com/BAZZUKA-ROOT/verificador-nota-fiscal",
-    "description": "🧾 Ferramenta web para verificar autenticidade de notas fiscais — detecta documentos falsos, zero dependências",
+    "description": "Ferramenta web para verificar autenticidade de notas fiscais e detectar indícios de fraude.",
     "title": "",
     "category": "web",
     "homepage": "https://bazzuka-root.github.io/verificador-nota-fiscal/",
     "language": "HTML",
-    "topics": [],
-    "updated": "2026-10-25T21:41:35Z"
+    "topics": [
+      "fraud-detection",
+      "html",
+      "invoice-verification",
+      "javascript",
+      "web-app"
+    ],
+    "updated": "2026-11-17T00:10:55Z"
   },
   {
     "name": "votemais-leads",
     "url": "https://github.com/BAZZUKA-ROOT/votemais-leads",
-    "description": "Plataforma interna de prospecção da VoteMais: encontra organizadores de concursos e eventos com votação em todo o Brasil, coleta contatos públicos com fonte, classifica oportunidades e prepara mensagens para envio manual pelo WhatsApp.",
+    "description": "Ferramenta de prospecção de organizadores de concursos e eventos para a plataforma VoteMais.",
     "title": "",
     "category": "web",
     "homepage": "",
     "language": "Python",
-    "topics": [],
-    "updated": "2026-11-06T15:40:51Z"
+    "topics": [
+      "automation",
+      "events",
+      "lead-generation",
+      "python",
+      "votemais"
+    ],
+    "updated": "2026-11-17T00:10:58Z"
   }
 ]
