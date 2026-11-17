@@ -52,7 +52,7 @@
     "portfolio-bazzuka": "🌐",
     "super-central-public": "🧩",
     "votemais-leads": "📊",
-    "produ-o-de-v-deos": "🎬",
+    "producao-de-video": "🎬",
     "caren-bragagnollo": "🌷",
     "comparou": "⚖️",
     "impulso": "🚀",
@@ -123,7 +123,7 @@
     const predefined = {
       "bazzuka-root": "BAZZUKA ROOT",
       "portfolio-bazzuka": "Portfólio Bazzuka",
-      "produ-o-de-v-deos": "Produção de Vídeos",
+      "producao-de-video": "Produção de Vídeos",
       "super-central-public": "Super Central",
       "votemais-leads": "VoteMais Leads",
       "pdv-local": "PDV Local",

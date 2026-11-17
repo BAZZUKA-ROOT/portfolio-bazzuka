@@ -285,8 +285,8 @@
     "updated": "2026-11-17T00:10:25Z"
   },
   {
-    "name": "produ-o-de-v-deos",
-    "url": "https://github.com/BAZZUKA-ROOT/produ-o-de-v-deos",
+    "name": "producao-de-video",
+    "url": "https://github.com/BAZZUKA-ROOT/producao-de-video",
     "description": "Plataforma de produção de vídeos promocionais com IA e ferramentas open source para empresas.",
     "title": "",
     "category": "web",
@@ -299,7 +299,7 @@
       "python",
       "video-production"
     ],
-    "updated": "2026-11-17T00:10:28Z"
+    "updated": "2026-11-17T00:33:34Z"
   },
   {
     "name": "secscan",
