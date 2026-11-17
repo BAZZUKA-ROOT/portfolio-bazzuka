@@ -17,12 +17,12 @@
     "updated": "2026-11-17T00:09:47Z"
   },
   {
-    "name": "cantina-bea",
-    "url": "https://github.com/BAZZUKA-ROOT/cantina-bea",
+    "name": "CantinaBea",
+    "url": "https://github.com/BAZZUKA-ROOT/CantinaBea",
     "description": "Site responsivo para cantina e restaurante, com pedidos pelo WhatsApp e localização no mapa.",
     "title": "",
     "category": "web",
-    "homepage": "https://bazzuka-root.github.io/cantina-bea/",
+    "homepage": "https://bazzuka-root.github.io/CantinaBea/",
     "language": "HTML",
     "topics": [
       "css",
@@ -32,7 +32,7 @@
       "restaurant",
       "whatsapp"
     ],
-    "updated": "2026-11-17T00:09:49Z"
+    "updated": "2026-11-17T00:21:57Z"
   },
   {
     "name": "caren-bragagnollo",
